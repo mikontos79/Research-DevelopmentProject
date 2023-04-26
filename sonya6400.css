@@ -1,114 +1,144 @@
-/* Grid-container class for the website */
+/* Grid-container class for the website starts here */
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
 }
+/* Grid-container class for the website ends here */
 
-/* Header class for the header section*/
+/* Header class for the header section starts here*/
 .header{
   grid-column-start: 1 ;
   grid-column-end: 7 ;
   grid-row-start:1;
   grid-row-end: 2;
 }
+/* Header class for the header section ends here*/
 
-/* Hero class for the hero section */
+/* Hero class for the hero section starts here */
 .hero{
   grid-column-start: 1 ;
   grid-column-end: 7 ;
   grid-row-start:2;
   grid-row-end: 3;
 }
+/* Hero class for the hero section ends here */
 
-/*  Content 1 class */
+/*  Content 1 class starts here */
 .content1{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+/*  Content 1 class ends here */
 
+/*  Backgrond 1 class starts here */
 .background1{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+/*  Backgrond 1 class ends here */
 
+/*  Content 2 class starts here */
 .content2{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 4;
   grid-row-end: 5;
 }
+/*  Content 2 class ends here */
 
+/*  background 2 class starts here */
 .background2{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 4;
   grid-row-end: 5;
 }
+/*  background 2 class ends here */
+
+/*  Content 3 class starts here */
 .content3{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 5;
   grid-row-end: 6;
 }
+/*  Content 3 class ends here */
 
+/*  Background 3 class starts here */
 .background3{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 5;
   grid-row-end: 6;
 }
+/*  Background 3 class ends here */
+
+/*  Content 4 class starts here */
 .content4{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 6;
   grid-row-end: 7;
 }
+/*  Content 4 class ends here */
 
+/*  Background 4 class starts here */
 .background4{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 6;
   grid-row-end: 7;
 }
+/*  Background 4 class ends here */
+
+/*  Content 5 class starts here */
 .content5{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 7;
   grid-row-end: 8;
 }
+/*  Content 5 class ends here */
 
+/*  Background 5 class starts here */
 .background5{
   grid-column-start: 1;
   grid-column-end: 7 ;
   grid-row-start: 7;
   grid-row-end: 8;
 }
+/*  Background 5 class ends here */
 
-/* Footer class for the footer section */
+/* Footer class for the footer section starts here */
 .footer{
   grid-column-start: 1 ;
   grid-column-end: 7 ;
   grid-row-start: 8;
   grid-row-end:  9;
 }
+/* Footer class for the footer section ends here */
 
+/*  Body of the page starts here */
 body {
   margin: 0;
   background-color: #ececec;
 }
+/*  Body of the page ends here */
 
+/*  Image of the hero section starts here */
 img {
   width: 400px;
   height: 400px;
   margin-top: 3%;
   margin-bottom: 2%;
 }
+/*  Image of the hero section ends here */
 
-
+/*  Animation used in hero section starts here */
 .fade {
   height: 100vh;
   width: 100%;
@@ -134,22 +164,25 @@ img {
   overflow-x: auto;
   margin-top: 15%;
 }
+/*  Animation used in hero section ends here */
 
-
+/*  Logo of the website starts here */
 .logo{
   margin-top: 1%;
   margin-left: 39%;
   width: 20%;
   height: 40%;
 }
+/*  Logo of the website ends here */
 
-/* Navigation Bar class */
+/* Navigation Bar of the website starts here */
 .navbar{
   margin-left: 32.5%;
   margin-top: -0.5%;
 }
+/* Navigation Bar of the website ends here */
 
-/* A tag inside the navigation bar class*/
+/* A tag inside the navigation bar class starts here */
 .navbar a{
   font-family: 'Lato', sans-serif;
   color: #454545;
@@ -159,8 +192,9 @@ img {
   justify-content: space-between;
   padding-left: 5%;
 }
+/* A tag inside the navigation bar class ends here */
 
-/* H1 tag inside the hero class */
+/* H1 tag inside the hero class starts here */
 .hero h1{
   font-family: 'Qermola' ;
   font-size: 18rem;
@@ -169,7 +203,9 @@ img {
   text-align: center;
   margin-top: -5%;
 }
+/* H1 tag inside the hero class ends here */
 
+/* H2 tag inside the hero class starts here */
 .hero h2{
   font-family: 'Lato', sans-serif; 
   font-size: 35px;
@@ -179,7 +215,9 @@ img {
   margin-left: 20%;
   margin-top: 15%;
 }  
+/* H2 tag inside the hero class ends here */  
 
+/* Animation used in hero section starts here */
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
@@ -232,7 +270,7 @@ img {
   -webkit-animation-direction: alternate;
   
   animation-direction: alternate;
-  animation-delay: alternate;
+  animation-delay:0s ;
 }
 
 .doi
@@ -353,7 +391,9 @@ img {
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+/* Animation used in hero section ends here */
 
+/* Background1 class starts here */
 .background1{
   background-color: #A3C985;
   width: 20%;
@@ -361,7 +401,9 @@ img {
   border-radius: 5px;
   margin-left: 25%;
 }
+/* Background1 class ends here */
 
+/* H2 tag inside background1 class starts here */
 .background1 h2{
   font-family: 'Lato', sans-serif;
     color: #454545;
@@ -370,19 +412,26 @@ img {
     margin-bottom: -5%;
     padding-top: 5%;
 }
+/* H2 tag inside background1 class ends here */
 
+/* Image inside background1 class starts here */
 .background1 img{
     width: 70%;
     height: 80%;
     margin-left: 15%;
     margin-bottom: 3%;
 }
+/* Image inside background1 class ends here */
+
+/* Hover animation to the image inside the background1 starts here */
 .background1 img:hover {
   -ms-transform: scale(1.1); 
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
 }
+/* Hover animation to the image inside the background1 ends here */
 
+/* Background2 class starts here */
 .background2{
   background-color: #A3C985;
   width: 25%;
@@ -391,7 +440,9 @@ img {
   margin-left: 48%;
   margin-top: 64%;
  }
+ /* Background2 class ends here */
 
+ /* H2 tag inside background2 class starts here */
 .background2 h2{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -399,17 +450,19 @@ img {
     text-align: center;
     margin-bottom: -5%;
     padding-top: 14%;
-    
 }
+/* H2 tag inside background2 class ends here */
 
+/* Image inside background2 class starts here */
 .background2 img{
   width: 50%;
   height: 100%;
   margin-top: -18%;
   margin-left: 25%;
 }
+/* Image inside background2 class ends here */
 
-
+/* Background3 class starts here */
 .background3{
   background-color: #A3C985;
   width: 20%;
@@ -418,7 +471,9 @@ img {
  margin-top: 8%;
  margin-left: 25%;
 }
+/* Background3 class ends here */
 
+ /* H2 tag inside background3 class starts here */
 .background3 h2{
   font-family: 'Lato', sans-serif;
     color: #454545;
@@ -429,7 +484,9 @@ img {
     padding-top: 7%;
     margin-left: 4%;
 }
+ /* H2 tag inside background3 class ends here */
 
+ /* Background4 class starts here */
 .background4{
   background-color: #A3C985;
   width: 25%;
@@ -438,19 +495,26 @@ img {
   margin-left: 48%;
   margin-top: -17%;
  }
+ /* Background4 class ends here */
 
+ /* Image inside background4 class starts here */
 .background4 img{
   width: 60%;
   height: 80%;
   margin-left: 18%;
   margin-bottom: 3%;
 }
+ /* Image inside background4 class ends here */
+
+ /* Hover animation to the image inside the background4 starts here */
 .background4 img:hover {
   -ms-transform: scale(1.1); 
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
 }
+ /* Hover animation to the image inside the background4 ends here */
 
+ /* H2 tag inside background4 class starts here */
 .background4 h2{
   font-family: 'Lato', sans-serif;
     color: #454545;
@@ -461,7 +525,9 @@ img {
     padding-top: 5%;
     margin-left: 4%;
 }
+/* H2 tag inside background4 class ends here */
 
+/* Background5 class starts here */
 .background5{
   background-color: #A3C985;
   width: 48%;
@@ -471,23 +537,26 @@ img {
   padding: 2%;
   margin-bottom: 30%;
  }
+ /* Background5 class ends here */
 
-/* Follow Us class */
+/* Follow Us class starts here */
 .followus{
   font-family: 'Lato', sans-serif;
   color: #454545;
   font-size: 35px;
   margin-left: 10%;
 }
+/* Follow Us class ends here */
 
-/* Icons class */
+/* Icons class starts here */
 .icons{
   width: 3%;
   height: 3%;
   margin-top: 1%;
 }
+/* Icons class ends here */
 
-/* Location class */
+/* products class starts here */
 .products{
   font-family: 'Lato', sans-serif;
   color: #454545;
@@ -495,16 +564,18 @@ img {
   text-align: center;
   margin-top: -13.5%;
 }
+/* products class ends here */
 
-/* A tag inside the location class */
+/* A tag inside the products class starts here */
 .products a{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #737373;
   font-size: 20px;
   text-decoration: none;
 }
+/* A tag inside the products class ends here */
 
-/* Email class */
+/* Email class starts here */
 .email{
   font-family: 'Lato', sans-serif;
   color: #454545;
@@ -513,15 +584,17 @@ img {
   margin-top: -13.5%;
   text-align: center;
 }
+/* Email class ends here */
 
-/* P tag inside the email class */
+/* P tag inside the email class starts here */
 .email p{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #737373;
   font-size: 20px;
 }
+/* P tag inside the email class ends here */
 
-/* Copyright class */
+/* Copyright class starts here */
 .copyright{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #737373;
@@ -530,3 +603,4 @@ img {
   padding: 2%;
   margin-top: 5%;
 }
+/* Copyright class ends here */

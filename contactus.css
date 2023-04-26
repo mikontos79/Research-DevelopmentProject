@@ -1,66 +1,76 @@
-/* Grid-container class for the website */
+/* Grid-container class for the website starts here */
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 }
+/* Grid-container class for the website ends here */
 
-/* Header class for the header section*/
+/* Header class for the header section starts here*/
 .header{
     grid-column-start: 1 ;
     grid-column-end: 7 ;
     grid-row-start:1;
     grid-row-end: 2;
 }
+/* Header class for the header section ends here*/
 
-/* Hero class for the hero section */
+/* Hero class for the hero section starts here */
 .hero{
     grid-column-start: 1 ;
     grid-column-end: 7 ;
     grid-row-start:2;
     grid-row-end: 3;
 }
+/* Hero class for the hero section ends here */
 
-
+/*  Form id of the page starts here */
 #form{
     grid-column-start: 1;
     grid-column-end: 7 ;
     grid-row-start: 3;
     grid-row-end:4;
 }
+/*  Form id of the page ends here */
 
-
-/* Footer class for the footer section */
+/* Footer class for the footer section starts here */
 .footer{
     grid-column-start: 1 ;
     grid-column-end: 7 ;
     grid-row-start:4;
     grid-row-end: 5;
 }
+/* Footer class for the footer section ends here */
 
-
+/*  Body of the page starts here */
 body {
     margin: 0;
     background-color: #ececec;
 }
+/*  Body of the page ends here */
 
+/*  Particles.js library id starts here */
 #particles-js{
     height: 100vh;
 }
+/*  Particles.js library id ends here */
 
+/*  Logo of the website starts here */
 .logo{
     margin-top: 1%;
     margin-left: 39%;
     width: 20%;
     height: 8%;
 }
+/*  Logo of the website ends here */
 
-/* Navigation Bar class */
+/* Navigation Bar of the website starts here */
 .navbar{
     margin-left: 32.5%;
     margin-top: 1%;
 }
+/* Navigation Bar of the website ends here */
 
-/* A tag inside the navigation bar class*/
+/* A tag inside the navigation bar class starts here */
 .navbar a{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -70,15 +80,18 @@ body {
     justify-content: space-between;
     padding-left: 5%;
 }
+/* A tag inside the navigation bar class ends here */
 
+/*  logocamera class starts here */
 .logocamera{
     width: 40%;
     margin-top: -17%;
     margin-left: 30%;
     filter: drop-shadow(10px 10px 10px #333333);
 }
+/*  logocamera class ends here */
 
-
+/* H1 tag inside the hero class starts here */
 .hero h1{
     font-family: 'Qermola' ;
     font-size: 15rem;
@@ -88,7 +101,9 @@ body {
     margin-top: -50%;
     margin-left: 25%;
 }
+/* H1 tag inside the hero class ends here */
 
+/* H2 tag inside the hero class starts here */
 .hero h2{
     font-family: 'Lato', sans-serif; 
     font-size: 35px;
@@ -99,8 +114,9 @@ body {
     margin-left: 20%;
     margin-bottom: -2%;
 } 
+/* H2 tag inside the hero class ends here */
 
-
+/* Button of the page starts here */
 .button{
     position : relative ;
     z-index : 0 ;
@@ -306,8 +322,9 @@ body {
     0%   { width : 0 ; }
     100% { width : 124px ; }
 }
+/* Button of the page starts here */
 
-
+/* Container class starts here */
 .container{
     width : 100% ;
     height : 300px ;
@@ -318,7 +335,7 @@ body {
     
 }
 
-/* Form class */
+/* Form id starts here */
 #form{
     width: 60%;
     height: 80%;
@@ -330,15 +347,18 @@ body {
     margin-bottom: 20%;
     box-shadow: 5px 5px 8px grey;
 }
+/* Form id ends here */
 
+/* H3 inside the form id starts here */
 #form h2{
     font-family: 'Lato', sans-serif; 
     font-size: 35px;
     color: #454545;
     text-align: center;
 }
+/* H3 inside the form id starts here */
 
-/*  Name id */
+/*  Name id starts here */
 #name{
     width: 40%;
     border: 1px solid #737373;
@@ -346,8 +366,9 @@ body {
     border-radius: 10px;
     padding: 2%;
 }
+/*  Name id ends here */
 
-/*  Email id */
+/*  Email id starts here */
 #email{
     width: 40%;
     border: 1px solid #737373;
@@ -355,8 +376,9 @@ body {
     border-radius: 10px;
     padding: 2%;
 }
+/*  Email id ends here */
 
-/*  Message id */
+/*  Message id starts here */
 #message{
     border: 1px solid #737373;
     width: 90%;
@@ -366,8 +388,9 @@ body {
     border-radius: 10px;
     padding: 2%;
 }
+/*  Message id ends here */
 
-/*  Popup class */
+/*  Popup class starts here */
 .popup {
     width: 20%;
     height: 10%;
@@ -433,24 +456,26 @@ body {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+/*  Popup class starts here */
 
-
-/* Follow Us class */
+/* Followus class starts here */
 .followus{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 35px;
     margin-left: 10%;
 }
+/* Followus class ends here */
 
-/* Icons class */
+/* Icons class starts here */
 .icons{
     width: 3%;
     height: 3%;
     margin-top: 1%;
 }
+/* Icons class ends here */
 
-/* Location class */
+/* Products class starts here */
 .products{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -458,16 +483,18 @@ body {
     text-align: center;
     margin-top: -11.5%;
 }
+/* Products class ends here */
 
-/* A tag inside the location class */
+/* A tag inside the products class starts here */
 .products a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #737373;
     font-size: 20px;
     text-decoration: none;
 }
+/* A tag inside the products class ends here */
 
-/* Email class */
+/* Email class starts here */
 .email{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -476,15 +503,17 @@ body {
     margin-top: -13.5%;
     text-align: center;
 }
+/* Email class ends here */
 
-/* P tag inside the email class */
+/* P tag inside the email class starts here */
 .email p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #737373;
     font-size: 20px;
 }
+/* P tag inside the email class starts here */
 
-/* Copyright class */
+/* Copyright class starts here */
 .copyright{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #737373;
@@ -493,3 +522,4 @@ body {
     padding: 2%;
     margin-top: 5%;
 }
+/* Copyright class ends here */

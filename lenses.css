@@ -1,88 +1,103 @@
-/* Grid-container class for the website */
+/* Grid-container class for the website starts here */
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 }
+/* Grid-container class for the website ends here */
 
-/* Header class for the header section*/
+/* Header class for the header section starts here*/
 .header{
     grid-column-start: 1 ;
     grid-column-end: 7 ;
     grid-row-start:1;
     grid-row-end: 2;
 }
+/* Header class for the header section ends here*/
 
-/* Hero class for the hero section */
+/* Hero class for the hero section starts here */
 .hero{
     grid-column-start: 1 ;
     grid-column-end: 7 ;
     grid-row-start:2;
     grid-row-end: 3;
 }
+/* Hero class for the hero section ends here */
 
-/*  Content 1 class */
+/*  Content 1 id starts here */
 #content1{
     grid-column-start: 1;
     grid-column-end: 7 ;
     grid-row-start: 3;
     grid-row-end:4;
 }
+/*  Content 1 id ends here */
 
+/*  Backgrond 1 class starts here */
 .background1{
     grid-column-start: 1;
     grid-column-end: 7 ;
     grid-row-start: 3;
     grid-row-end: 4;
 }
+/*  Backgrond 1 class ends here */
 
-/*  Content 1 class */
+/*  Content 2 class starts here */
 .content2{
     grid-column-start: 1;
     grid-column-end: 7 ;
     grid-row-start: 4;
     grid-row-end:5;
 }
+/*  Content 2 class ends here */
 
+/*  background 2 class starts here */
 .background2{
     grid-column-start: 1;
     grid-column-end: 7 ;
     grid-row-start: 4;
     grid-row-end: 5;
 }
+/*  background 2 class ends here */
 
-
-/* Footer class for the footer section */
+/* Footer class for the footer section starts here */
 .footer{
     grid-column-start: 1 ;
     grid-column-end: 7 ;
     grid-row-start:7;
     grid-row-end: 8;
 }
+/* Footer class for the footer section ends here */
 
-
+/*  Body of the page starts here */
 body {
     margin: 0;
     background-color: #ececec;
 }
+/*  Body of the page ends here */
 
+/*  Particles.js library id starts here */
 #particles-js{
     height: 100vh;
 }
+/*  Particles.js library id ends here */
 
+/*  Logo of the website starts here */
 .logo{
     margin-top: 1%;
     margin-left: 39%;
     width: 20%;
     height: 8%;
 }
+/*  Logo of the website ends here */
 
-/* Navigation Bar class */
+/* Navigation Bar of the website starts here */
 .navbar{
     margin-left: 32.5%;
     margin-top: 1%;
 }
+/* Navigation Bar of the website ends here */
 
-/* A tag inside the navigation bar class*/
+/* A tag inside the navigation bar class starts here */
 .navbar a{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -92,14 +107,18 @@ body {
     justify-content: space-between;
     padding-left: 5%;
 }
+/* A tag inside the navigation bar class ends here */
 
+/*  logocamera class starts here */
 .logocamera{
     width: 40%;
     margin-top: -17%;
     margin-left: 30%;
     filter: drop-shadow(10px 10px 10px #333333);
 }
+/*  logocamera class ends here */
 
+/* H1 tag inside the hero class starts here */
 .hero h1{
     font-family: 'Qermola' ;
     font-size: 15rem;
@@ -109,7 +128,9 @@ body {
     margin-top: -50%;
     margin-left: 24%;
 }
+/* H1 tag inside the hero class ends here */
 
+/* H2 tag inside the hero class starts here */
 .hero h2{
     font-family: 'Lato', sans-serif; 
     font-size: 35px;
@@ -120,8 +141,9 @@ body {
     margin-left: 20%;
     margin-bottom: -2%;
 } 
+/* H2 tag inside the hero class ends here */
 
-
+/* Button of the page starts here */
 .button{
     position : relative ;
     z-index : 0 ;
@@ -327,8 +349,9 @@ body {
     0%   { width : 0 ; }
     100% { width : 124px ; }
 }
+/* Button of the page starts here */
 
-
+/* Container class starts here */
 .container{
     width : 100% ;
     height : 300px ;
@@ -336,9 +359,10 @@ body {
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;
-    
 }
+/* Container class ends here */
 
+/* Background1 class starts here */
 .background1{
     background: #A3C985;
     margin-left: 8%;
@@ -347,7 +371,9 @@ body {
     border-radius: 5px;
     filter: drop-shadow(10px 10px 10px #333333);
 }
+/* Background1 class ends here */
 
+/* H1 tag inside background1 class starts here */
 .background1 h1{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -356,29 +382,40 @@ body {
     padding-top: 3%;
     padding-bottom: 5%;
 }
+/* H1 tag inside background1 class ends here */
 
+/* H2 tag inside first class starts here */
 .first h2{
     font-family: 'Qermola' ;
     color: #454545;
     font-size: 40px;
     margin-left: 8%;
 }
+/* H2 tag inside first class ends here */
 
+/* First class starts here */
 .first{
     margin-left: 5%;
     margin-bottom: 10%;
 }
+/* First class ends here */
 
+/* Image inside the first class starts here */
 .first img{
     width: 25%;
     filter: drop-shadow(10px 10px 10px black);
 }
+/* Image inside the first class ends here */
+
+/* Hover animation to the image inside the first class starts here */
 .first img:hover {
     -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+/* Hover animation to the image inside the first class ends here */
 
+/* P tag inside first class starts here */
 .first p{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -386,6 +423,9 @@ body {
     margin-left: 9%;
 
 }
+/* P tag inside first class ends here */
+
+/* A tag inside first class starts here */
 .first a{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -393,12 +433,16 @@ body {
     text-decoration: none;
     margin-left: 9%;
 }
+/* A tag inside first class ends here */
 
+/* Second class starts here */
 .second{
     margin-top: -44.5%;
     margin-left: 36%;
 }
+/* Second class ends here */
 
+/* H2 tag inside second class starts here */
 .second h2{
     font-family: 'Qermola' ;
     color: #454545;
@@ -406,24 +450,33 @@ body {
     margin-left: 8%;
     margin-top: -15%;
 }
+/* H2 tag inside second class ends here */
 
+/* Image inside the second class starts here */
 .second img{
     width: 38%;
     filter: drop-shadow(10px 10px 10px black);
 }
+/* Image inside the second class ends here */
+
+/* Hover animation to the image inside the second class starts here */
 .second img:hover {
     -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+/* Hover animation to the image inside the second class ends here */
 
+/* P tag inside second class starts here */
 .second p{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 22px;
     margin-left: 15%;
 }
+/* P tag inside second class ends here */
 
+/* A tag inside second class starts here */
 .second a{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -432,35 +485,49 @@ body {
     margin-left: 9%;
     padding-bottom: 10%;
 }
+/* A tag inside second class ends here */
 
+/* Third class starts here */
 .third{
     margin-top: -35%;
     margin-left: 70%;
 }
+/* Third class ends here */
 
+/* H2 tag inside third class starts here */
 .third h2{
     font-family: 'Qermola' ;
     color: #454545;
     font-size: 40px;
     margin-left: 25%;
 }
+/* H2 tag inside third class ends here */
 
+/* Image inside the third class starts here */
 .third img{
     width: 80%;
     filter: drop-shadow(10px 10px 10px black);
 }
+/* Image inside the third class ends here */
+
+/* Hover animation to the image inside the third class starts here */
 .third img:hover {
     -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+/* Hover animation to the image inside the third class ends here */
 
+/* P tag inside third class starts here */
 .third p{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 22px;
     margin-left: 35%;
 }
+/* P tag inside third class ends here */
+
+/* A tag inside third class starts here */
 .third a{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -470,11 +537,15 @@ body {
     margin-top: -40%;
     padding-bottom: 10%;
 }
+/* A tag inside third class ends here */
 
+/* background2 class starts here */
 .background2{
     margin-bottom: 7%;
 }
+/* background2 class ends here */
 
+/* H2 inside background2 class starts here */
 .background2 h2{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -482,105 +553,139 @@ body {
     margin-top: 10%;
     margin-left: 8%;
 }
+/* H2 inside background2 class ends here */
 
+/* OneMount class starts here */
 .OneMount{
     margin-left: 8%;
 }
+/* OneMount class ends here */
 
+/* Image inside the OneMount class starts here */
 .OneMount img{
     width: 25%;
     filter: drop-shadow(10px 10px 10px #333333);
 }
+/* Image inside the OneMount class ends here */
+
+/* Hover animation of the image inside the OneMount class starts here */
 .OneMount img:hover {
     -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+/* Hover animation of the image inside the OneMount class ends here */
 
+/* H3 inside the OneMount class starts here */
 .OneMount h3{
     font-family: 'Lato', sans-serif;
     color: #A3C985;
     font-size: 25px;
 }
+/* H3 inside the OneMount class ends here */
 
+/* P tag inside the OneMount class starts here */
 .OneMount p{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 22px;
 }
+/* P tag inside the OneMount class ends here */
 
+/* AlphaLenses class starts here */
 .AlphaLenses{
     margin-left: 38%;
     margin-top: -37%;
 }
+/* AlphaLenses class ends here */
 
+/* Image inside the AlphaLenses class starts here */
 .AlphaLenses img{
     width: 37%;
     filter: drop-shadow(10px 10px 10px #333333);
 }
+/* Image inside the AlphaLenses class ends here */
+
+/* Hover animation of the image inside the AlphaLenses class starts here */
 .AlphaLenses img:hover {
     -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+/* Hover animation of the image inside the AlphaLenses class ends here */
 
+/* H3 inside the AlphaLenses class starts here */
 .AlphaLenses h3{
     font-family: 'Lato', sans-serif;
     color: #A3C985;
     font-size: 25px;
 }
+/* H3 inside the AlphaLenses class ends here */
 
+/* P tag inside the AlphaLenses class starts here */
 .AlphaLenses p{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 22px;
 }
+/* P tag inside the AlphaLenses class ends here */
 
+/* LensTerminology class starts here */
 .LensTerminology{
     margin-left: 68%;
     margin-top: -37%;
 }
+/* LensTerminology class ends here */
 
+/* Image inside the LensTerminology class starts here */
 .LensTerminology img{
     width: 72%;
     filter: drop-shadow(10px 10px 10px #333333);
 }
+/* Image inside the LensTerminology class ends here */
+
+/* Hover animation of the image inside the LensTerminology class starts here */
 .LensTerminology img:hover {
     -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+/* Hover animation of the image inside the LensTerminology class ends here */
 
+/* H3 inside the LensTerminology class starts here */
 .LensTerminology h3{
     font-family: 'Lato', sans-serif;
     color: #A3C985;
     font-size: 25px;
 }
+/* H3 inside the LensTerminology class ends here */
 
+/* P tag inside the LensTerminology class starts here */
 .LensTerminology p{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 22px;
 }
+/* P tag inside the LensTerminology class ends here */
 
-
-
-/* Follow Us class */
+/* Followus class starts here */
 .followus{
     font-family: 'Lato', sans-serif;
     color: #454545;
     font-size: 35px;
     margin-left: 10%;
 }
+/* Followus class ends here */
 
-/* Icons class */
+/* Icons class starts here */
 .icons{
     width: 3%;
     height: 3%;
     margin-top: 1%;
 }
+/* Icons class ends here */
 
-/* Location class */
+/* Products class starts here */
 .products{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -588,16 +693,18 @@ body {
     text-align: center;
     margin-top: -11.5%;
 }
+/* Products class ends here */
 
-/* A tag inside the location class */
+/* A tag inside the products class starts here */
 .products a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #737373;
     font-size: 20px;
     text-decoration: none;
 }
+/* A tag inside the products class ends here */
 
-/* Email class */
+/* Email class starts here */
 .email{
     font-family: 'Lato', sans-serif;
     color: #454545;
@@ -606,15 +713,17 @@ body {
     margin-top: -13.5%;
     text-align: center;
 }
+/* Email class ends here */
 
-/* P tag inside the email class */
+/* P tag inside the email class starts here */
 .email p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #737373;
     font-size: 20px;
 }
+/* P tag inside the email class starts here */
 
-/* Copyright class */
+/* Copyright class starts here */
 .copyright{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #737373;
@@ -623,4 +732,5 @@ body {
     padding: 2%;
     margin-top: 5%;
 }
+/* Copyright class ends here */
 
